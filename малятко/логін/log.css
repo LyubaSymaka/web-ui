@@ -1,0 +1,121 @@
+@font-face{
+    font-family: 'SeoulHangang-ExtraBold'; 
+	src: url( 'SeoulHangang-ExtraBold.woff' ) format("woff"); 
+}
+
+body{
+position: absolute;
+width: 1280px;
+height: 720px;
+left: 0px;
+top: 0px;
+background: #FFFFFF;
+}
+
+.name{
+position: absolute;
+left: 28.75%;
+right: 28.67%;
+top: 11.11%;
+bottom: 75.03%;
+}
+
+.text{
+position: absolute;
+width: 511px;
+height: 61px;
+left: 385px;
+top: 203px;
+
+font-family: SeoulHangang-ExtraBold;
+font-style: normal;
+font-weight: normal;
+font-size: 55px;
+line-height: 55px;
+text-align: center;
+color: #000000;
+}
+
+
+.logg{
+position: absolute;
+width: 106px;
+height: 30px;
+left: 186px;
+top: 264px;
+
+font-family: SeoulHangang-ExtraBold;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 36px;
+color: #000000;
+
+}
+
+.user{
+position: absolute;
+width: 909px;
+height: 70px;
+left: 186px;
+top: 314px;
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 4px;
+}
+
+
+.pass{
+position: absolute;
+width: 127px;
+height: 30px;
+left: 186px;
+top: 434px;
+
+font-family: SeoulHangang-ExtraBold;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 36px;
+color: #000000;
+
+}
+
+.pass2{
+position: absolute;
+width: 909px;
+height: 70px;
+left: 186px;
+top: 484px;
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 4px;
+}
+
+button{
+position: absolute;
+width: 419.53px;
+height: 75px;
+left: 430px;
+top: 585px;
+background: #4B6EE8;
+border-radius: 2px;
+
+color:#FFFFFF;
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 34px;
+
+}
+
+::placeholder {
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+line-height: 34px;
+color: #000000;
+
+}

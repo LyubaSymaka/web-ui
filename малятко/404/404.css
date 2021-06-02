@@ -1,0 +1,113 @@
+@font-face{
+    font-family: 'SeoulHangang-ExtraBold'; 
+	src: url( 'SeoulHangang-ExtraBold.woff' ) format("woff"); 
+}
+
+body{
+position: absolute;
+width: 1280px;
+height: 720px;
+left: 0px;
+top: 0px;
+}
+
+.flex-container{
+
+  width: 1280px;
+  height: 720px;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.lines{
+    display: flex;
+    flex-direction: row;
+}
+
+.number{
+position: absolute;
+width: 657px;
+height: 151px;
+left: 310px;
+top: 141px;
+
+font-family: SeoulHangang-ExtraBold ;
+font-style: normal;
+font-weight: normal;
+font-size: 160px;
+line-height: 161px;
+text-align: center;
+color: #4B6EE8;
+    
+}
+
+.hr1{
+position: absolute;
+width: 220px;
+height: 0px;
+left: 219px;
+top: 217px;
+margin: 0%;
+border: 1px solid #4B6EE8;
+
+}
+
+.hr2{
+position: absolute;
+width: 220px;
+height: 0px;
+left: 840px;
+top: 217px;
+margin: 0%;
+border: 1px solid #4B6EE8;
+}
+
+.text1{
+position: absolute;
+width: 657px;
+height: 55px;
+left: 310px;
+top: 378px;
+
+font-family: SeoulHangang-ExtraBold;
+font-style: normal;
+font-weight: normal;
+font-size: 55px;
+line-height: 55px;
+display: flex;
+justify-content: center;
+color: #656565;
+}
+
+button{ 
+position: absolute;
+width: 657px;
+height: 61px;
+left: 310px;
+top: 509px;
+
+font-family: SeoulHangang-ExtraBold;
+font-style: normal;
+font-weight: normal;
+font-size: 55px;
+line-height: 55px;
+display: flex;
+justify-content: center;
+border: 0pc;
+background-color: white;
+color: #656565;
+}
+
+.hr3{
+    position: absolute;
+width: 549px;
+height: 0px;
+left: 364px;
+top: 578px;
+border: 1px solid #656565;
+}
+
+
+
