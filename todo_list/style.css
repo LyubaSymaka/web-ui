@@ -1,0 +1,114 @@
+body{
+    background-image: linear-gradient(to bottom right, #FFCCFF, #CCFFFF);
+    margin: 0px;
+    
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+header{
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    background-image: url('fon_nerovnosti_svet_86951_1280x720.jpg');
+    background-size: 100%;
+    font-family: 'Source Serif Pro', serif;
+}
+.imab{
+    width: 1000px;
+    height: 700px;
+}
+.about{
+    font-size: 32px;
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.id22{
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+.id23{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.id11{
+    font-size: 24px;
+}
+.im1{
+    width: 400px;
+    height: 350px;
+}
+.im2{
+    width: 500px;
+    height: 400px;
+}
+.im3{
+    width: 400px;
+    height: 500px;
+}
+.im4{
+    width:400px;
+    height: 350px;
+    
+}
+.im5{
+    width: 500px;
+    height: 450px;
+}
+.im6{
+    width: 500px;
+    height: 400px;
+}
+.im7{
+    width: 500px;
+    height: 400px;
+    
+}
+.p1{
+    margin: 15px;
+    font-size: 24px;
+    width: 100%;
+    
+}
+h3{
+    text-align: center;
+}
+.tdl{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tdl h3{
+    text-decoration: underline;
+}
+button{
+    width: 120px;
+    height: 70px;
+    font-size: 20px;
+    border-radius:32px;
+    border: none;
+    background-color: #8B008B;
+    color:lightblue;
+    cursor: pointer;
+}
+.ico{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10px;
+    padding: 15px;
+    border:4px dashed #40E0D0;
+}
+
